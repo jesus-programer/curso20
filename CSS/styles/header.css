@@ -69,6 +69,29 @@ font-size: 22px;
     align-items: center;
 }
 
+/*
+PSEUDO ELEMENTOS
+Estos se utilizan para darle estilos a partes
+especificas de un elemento
+lista:
+::after (despues del contenido)
+::before (antes del contenido)
+::first-letter (primera letra)
+::placeholder (texto de un input)
+*/
+/*
+input::placeholder{
+color: black;
+}
+*/
+/*
+p::after{
+    content: "";
+    font-size: 24px;
+}
+*/
+
+
 @keyframes fondo {
     0%{
     background-position:0% 50%;
